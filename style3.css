@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #0069d9;
+    color: white;
+}
+
+marquee {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#features img, #use-cases img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#features h3, #use-cases h3 {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    
+    #features h3, #use-cases h3 {
+        font-size: 1.2em;
+    }
+}
